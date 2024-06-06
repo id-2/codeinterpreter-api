@@ -10,7 +10,7 @@ license = "MIT"
 python = "^3.9"
 python-dotenv = "^1.0.0"
 openai = "^0.27.8"
-langchain = "^0.0.232"
+langchain = "^0.2.2"
 codeboxapi = "^0.0.6"
 
 [tool.poetry.extras]
@@ -19,7 +19,7 @@ image_support = ["Pillow"]
 [tool.poetry.dev-dependencies]
 pytest = "^7.4.0"
 mypy = "^1.4.1"
-black = "^23.7.0"
+black = "^24.3.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
